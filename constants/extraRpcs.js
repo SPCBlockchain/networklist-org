@@ -1703,6 +1703,15 @@ export const extraRpcs = {
     websiteDead: true,
     rpcWorking: false,
   },
+  3490: {
+    rpcs: [
+      {
+        url: "https://mainnet-rpc.spcscan.io",
+        tracking: "limited",
+        trackingDetails: privacyStatement.spc
+      }
+    ],
+  },
   5197: {
     rpcs: ["https://mainnet.eraswap.network"],
   },
